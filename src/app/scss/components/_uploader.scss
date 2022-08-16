@@ -1,0 +1,32 @@
+@import "../base/variables";
+
+.uploader {
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 0.3px;
+
+  &__list {
+    line-height: 25px;
+    list-style: none;
+    text-align: start;
+  }
+
+  &__button {
+    background-color: $orange;
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid $dark;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+}

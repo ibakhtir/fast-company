@@ -1,0 +1,18 @@
+@import "../base/variables";
+
+.header {
+  background-color: $grey;
+  padding: 20px 30px;
+  position: sticky;
+  top: 0;
+
+  &__link {
+    color: $dark;
+    font-size: 18px;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
