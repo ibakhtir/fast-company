@@ -2,6 +2,7 @@
   {
     "_id": "67rdca3eeb7f6fgeed471815",
     "name": "Джон Дориан",
+    "image": "https://avatars.dicebear.com/api/avataaars/user10.svg",
     "email": "Jony7351@tw.com",
     "password": "b2C!9bmE",
     "profession": "67rdca3eeb7f6fgeed471818",
@@ -11,11 +12,13 @@
       "67rdca3eeb7f6fgeed471100"
     ],
     "completedMeetings": 36,
-    "rate": 2.5
+    "rate": 2.5,
+    "bookmark": false
   },
   {
     "_id": "67rdca3eeb7f6fgeed471816",
     "name": "Кокс",
+    "image": "https://avatars.dicebear.com/api/avataaars/user20.svg",
     "email": "white4571@twipet.com",
     "password": "NSF-kQ7p",
     "profession": "67rdca3eeb7f6fgeed471818",
@@ -25,11 +28,13 @@
       "67rdca3eeb7f6fgeed471101"
     ],
     "completedMeetings": 15,
-    "rate": 2.5
+    "rate": 2.5,
+    "bookmark": false
   },
   {
     "_id": "67rdca3eeb7f6fgeed471817",
     "name": "Боб Келсо",
+    "image": "https://avatars.dicebear.com/api/avataaars/user30.svg",
     "email": "bob007@tw.com",
     "password": "*cr6Lydn",
     "profession": "67rdca3eeb7f6fgeed471818",
@@ -41,6 +46,7 @@
   {
     "_id": "67rdca3eeb7f6fgeed471818",
     "name": "Рэйчел Грин",
+    "image": "https://avatars.dicebear.com/api/avataaars/user40.svg",
     "email": "green7311@fam.biz",
     "password": "*V7&Ks6D",
     "profession": "67rdca3eeb7f6fgeed471820",
@@ -52,16 +58,19 @@
   {
     "_id": "67rdca3eeb7f6fgeed471819",
     "name": "Шелдон Купер",
+    "image": "https://avatars.dicebear.com/api/avataaars/user50.svg",
     "email": "mindgames6878@phis.tech",
     "password": "$8^M_LfY",
     "profession": "67rdca3eeb7f6fgeed471814",
     "qualities": ["67rdca3eeb7f6fgeed471100", "67rdca3eeb7f6fgeed471198"],
     "completedMeetings": 37,
-    "rate": 4.6
+    "rate": 4.6,
+    "bookmark": false
   },
   {
     "_id": "67rdca3eeb7f6fgeed471820",
     "name": "Леонард Хофстедтер",
+    "image": "https://avatars.dicebear.com/api/avataaars/user60.svg",
     "email": "mindes000@phis.tech",
     "password": "75gHX^Tj",
     "profession": "67rdca3eeb7f6fgeed471814",
@@ -73,6 +82,7 @@
   {
     "_id": "67rdca3eeb7f6fgeed471821",
     "name": "Говард Воловиц",
+    "image": "https://avatars.dicebear.com/api/avataaars/user70.svg",
     "email": "gov1903@phis.tech",
     "password": "k2+HWHq^",
     "profession": "67rdca3eeb7f6fgeed471822",
@@ -84,51 +94,61 @@
   {
     "_id": "67rdca3eeb7f6fgeed471822",
     "name": "Никола Тесла",
+    "image": "https://avatars.dicebear.com/api/avataaars/user80.svg",
     "email": "electro@underground.tech",
     "password": "K2vVmM^Z",
     "profession": "67rdca3eeb7f6fgeed471822",
     "qualities": ["67rdca3eeb7f6fgeed471102"],
     "completedMeetings": 72,
-    "rate": 5
+    "rate": 5,
+    "bookmark": false
   },
   {
     "_id": "67rdca3eeb7f6fgeed471823",
     "name": "Моника Геллер",
+    "image": "https://avatars.dicebear.com/api/avataaars/user90.svg",
     "email": "mono@super.com",
     "password": "Zu+9*V$E",
     "profession": "67rdca3eeb7f6fgeed471829",
     "qualities": ["67rdca3eeb7f6fgeed471100", "67rdca3eeb7f6fgeed471102"],
     "completedMeetings": 17,
-    "rate": 4.5
+    "rate": 4.5,
+    "bookmark": false
   },
   {
     "_id": "67rdca3eeb7f6fgeed471824",
     "name": "Рататуй",
+    "image": "https://avatars.dicebear.com/api/avataaars/user100.svg",
     "email": "ratatatata@underground.com",
     "password": "RvJ-U2EC",
     "profession": "67rdca3eeb7f6fgeed471829",
     "qualities": ["67rdca3eeb7f6fgeed471102", "67rdca3eeb7f6fgeed4711012"],
     "completedMeetings": 17,
-    "rate": 4.5
+    "rate": 4.5,
+    "bookmark": false
   },
   {
     "_id": "67rdca3eeb7f6fgeed47181f",
     "name": "Джоуи Триббиани",
+    "image": "https://avatars.dicebear.com/api/avataaars/user110.svg",
     "email": "joe@trib.com",
     "password": "z&_r7VA8",
     "profession": "67rdca3eeb7f6fgeed471824",
     "qualities": ["67rdca3eeb7f6fgeed471102", "67rdca3eeb7f6fgeed471100"],
     "completedMeetings": 434,
-    "rate": 3.5
+    "rate": 3.5,
+    "bookmark": false
   },
   {
     "_id": "67rdca3eeb7f6fgeed47181r",
     "name": "Брэд Питт",
+    "image": "https://avatars.dicebear.com/api/avataaars/user120.svg",
     "email": "superstar@star.com",
     "password": "89UhL^$d",
     "profession": "67rdca3eeb7f6fgeed471824",
     "qualities": ["67rdca3eeb7f6fgeed471102"],
     "completedMeetings": 434,
-    "rate": 5
+    "rate": 5,
+    "bookmark": false
   }
 ]

@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => (
-  <header className="header">
-    <nav className="header__list">
-      <Link className="header__link" to="/">
-        Main
-      </Link>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <Link to="/">Главная</Link>
+        </li>
+      </ul>
     </nav>
   </header>
 );

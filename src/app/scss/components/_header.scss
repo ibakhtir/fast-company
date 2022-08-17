@@ -1,0 +1,14 @@
+header {
+  background-color: $gray;
+  padding: 20px 30px;
+  position: sticky;
+  top: 0;
+
+  a {
+    color: $dark;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
