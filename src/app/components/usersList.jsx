@@ -3,10 +3,16 @@ import PropTypes from "prop-types";
 
 import User from "./user";
 
-const UsersList = ({ users }) => (
-  <ul className="users-list">
-    {users && users.map((user) => <User key={user._id} user={user} />)}
-  </ul>
+const UsersList = ({ users, isMessage }) => (
+  <div className="users">
+    {!isMessage ? (
+      <ul className="users__list">
+        {users && users.map((user) => <User key={user._id} user={user} />)}
+      </ul>
+    ) : (
+      <p className="users__message">В Firebase нет данных о пользователях</p>
+    )}
+  </div>
 );
 
 UsersList.propTypes = {
@@ -19,7 +25,8 @@ UsersList.propTypes = {
         PropTypes.array
       ])
     )
-  )
+  ),
+  isMessage: PropTypes.bool
 };
 
 export default UsersList;

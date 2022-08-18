@@ -1,11 +1,12 @@
 @include tablet {
   .main {
-    height: calc(100% - 62px);
-    margin-top: 5px;
-    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+
+    section {
+      height: 50%;
+    }
   }
 }

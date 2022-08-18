@@ -1,0 +1,21 @@
+@mixin animation-logo($name) {
+  @keyframes #{$name} {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@mixin appearance($name) {
+  @keyframes #{$name} {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}

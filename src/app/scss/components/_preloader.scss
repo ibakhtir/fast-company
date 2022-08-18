@@ -1,0 +1,8 @@
+.logo {
+  width: 300px;
+  height: 300px;
+  pointer-events: none;
+  animation: react-logo-spin infinite 20s linear;
+}
+
+@include animation-logo(react-logo-spin);
