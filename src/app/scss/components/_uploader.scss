@@ -3,6 +3,7 @@
   text-align: center;
   letter-spacing: 0.3px;
   animation: upload 2s forwards;
+  @include appearance(upload);
 
   &__list {
     margin: 12px 10px 12px 30px;
@@ -34,5 +35,3 @@
     }
   }
 }
-
-@include appearance(upload);

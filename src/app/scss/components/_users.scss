@@ -6,17 +6,31 @@
 
   &__list {
     height: 100%;
+    padding-right: 7px;
     overflow: auto;
     animation: users 2s forwards;
     @include appearance(users);
 
-    /* Hide scrollbar for IE, Edge, Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    // Hide scrollbar for IE, Edge, Firefox
+    // -ms-overflow-style: none; // IE and Edge
+    // scrollbar-width: none; // Firefox
 
-    /* Hide scrollbar for Chrome, Safari and Opera */
+    // Hide scrollbar for Chrome, Safari and Opera
+    // &::-webkit-scrollbar {
+    //   display: none;
+    // }
+
     &::-webkit-scrollbar {
-      display: none;
+      width: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $gray-200;
+      border-radius: 50px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: $gray;
     }
   }
 
@@ -55,14 +69,15 @@
       }
 
       p {
+        font-size: 14px;
         opacity: 0.8;
       }
     }
 
     &__action {
       display: inline-block;
+      transition: 150ms;
       cursor: pointer;
-      transition: 250ms;
 
       &:hover {
         opacity: 0.5;
